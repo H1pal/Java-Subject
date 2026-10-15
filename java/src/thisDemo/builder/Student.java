@@ -89,7 +89,7 @@ public class Student {
     public static void main(String[] args) {
         Student student = new Student.Builder(1312, "유희성", 1)
                 .setMajor("App Developer")
-                .setPhoneNumber("01010101010")
+                .setPhoneNumber("010-1010-1010")
                 .build();
         student.showInfo();
     }

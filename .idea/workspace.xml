@@ -4,15 +4,128 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7489df22-9ca8-4bd1-902c-48ed135931e3" name="변경" comment="4차시: switch 조건문">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7489df22-9ca8-4bd1-902c-48ed135931e3" name="변경" comment="7차시: (refactor)">
+      <change afterPath="$PROJECT_DIR$/java/src/cooperation/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/cooperation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/cooperation/Subway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/cooperation/TakeTransit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/singleton/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/singleton/CompanyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/staticDemo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/staticDemo/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/staticDemo/StudentTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments01/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments01/OrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments02/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments02/BookStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments03/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments03/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/test17/assignments03/CarFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/src/array/assignments/ArrayEx7.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/array/assignments/ArrayEx7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/thisDemo/builder/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/thisDemo/builder/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayCopy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/ArrayTest6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/CharArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/assignments/ArrayEx7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/array/books/ArrayExam1_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/BooleanEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/CharacterEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/CharacterEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/DoubleEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/ExplicitConversion1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/ExplicitConversion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/ImplicitConversion1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/ImplicitConversion2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/IntegerEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/ScopeQz1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/VarAssignment1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/VarAssignment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/VarAssignment3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/VarAssignment4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/Variable1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/Variable2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/assignments/VarAssignment1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/assignments/VarAssignment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/assignments/VarAssignment3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/chapter2/assignments/VarAssignment4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/IfEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/IfEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/SwitchCase1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/SwitchCase2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/SwitchCase3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/conditional/assignments/ConditionEx9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/hello/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/BreakEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam1_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam1_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam1_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam2_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/ForExam2_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_For1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_For2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_For3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_While1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_While2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/Self_While3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/While.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/WhileEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/WhileEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/loop/assignments/LoopEx7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/OperationEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/OperationEx2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/OperationEx3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/OperationEx4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/OperationEx5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/assigments/OperationAssignment6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/quiz/OperationQz4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java/operator/quiz/OperationQz5.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +138,7 @@
     </colors>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="99" />
+    <option name="cachedIndexableFilesCount" value="140" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -56,6 +169,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Kotlin Script MainKts.main" />
         <option value="Class" />
       </list>
     </option>
@@ -63,67 +177,79 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;H1pal&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:H1pal/Learning-Java.git&quot;,
+    &quot;accountId&quot;: &quot;a228c65a-886b-4f11-b6cf-4900206d73d3&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0267976207140384" />
-      <entry key="MS500" value="2.139700861601445" />
-      <entry key="S2" value="5.647185418827999" />
-      <entry key="S5" value="9.600159818105816" />
-      <entry key="S10" value="15.133465907709496" />
-      <entry key="S30" value="25.317855736341993" />
-      <entry key="S60" value="30.402782713373" />
-      <entry key="M2" value="33.78905724768729" />
-      <entry key="M5" value="36.19970518045471" />
-      <entry key="M10" value="37.07888069779651" />
-      <entry key="M15" value="37.381131188028824" />
-      <entry key="M30" value="37.736031406231696" />
-      <entry key="H1" value="45.40149358840254" />
-      <entry key="H2" value="156.77589084123738" />
-      <entry key="H4" value="583.3315158037117" />
-      <entry key="D1" value="2256.0024942951795" />
-      <entry key="W1" value="2902.764472996396" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000009194958" />
+      <entry key="S2" value="1.0196001856737265" />
+      <entry key="S5" value="1.641169225526532" />
+      <entry key="S10" value="3.6485548256009825" />
+      <entry key="S30" value="10.34049858510735" />
+      <entry key="S60" value="17.997859891973356" />
+      <entry key="M2" value="32.53623425475823" />
+      <entry key="M5" value="77.19426732195053" />
+      <entry key="M10" value="137.4873103160432" />
+      <entry key="M15" value="181.33228711893182" />
+      <entry key="M30" value="281.7388774016891" />
+      <entry key="H1" value="495.24544968076" />
+      <entry key="H2" value="1014.0584226219689" />
+      <entry key="H4" value="1953.6381359810741" />
+      <entry key="D1" value="5406.6663403041075" />
+      <entry key="W1" value="7896.083957290138" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="8.657243914129886E-234" />
-      <entry key="S60" value="2.9448066895629034E-117" />
-      <entry key="M2" value="5.79462444367982E-59" />
-      <entry key="M5" value="1.1577810582966654E-23" />
-      <entry key="M10" value="1.280697469082136E-11" />
-      <entry key="M15" value="1.590421399669461E-7" />
-      <entry key="M30" value="0.0025529358474948123" />
-      <entry key="H1" value="0.4215003440751759" />
-      <entry key="H2" value="6.7956941348247275" />
-      <entry key="H4" value="32.157601241101034" />
-      <entry key="D1" value="137.55024071749983" />
-      <entry key="W1" value="179.7075006882731" />
+      <entry key="MS100" value="1.0891990322915075E-38" />
+      <entry key="MS500" value="2.5551797051255996E-8" />
+      <entry key="S2" value="0.012643152091547635" />
+      <entry key="S5" value="0.1740773066451494" />
+      <entry key="S10" value="0.4173078824166327" />
+      <entry key="S30" value="0.8315339436988078" />
+      <entry key="S60" value="1.4668333435727625" />
+      <entry key="M2" value="3.247340215437664" />
+      <entry key="M5" value="10.968052148937888" />
+      <entry key="M10" value="22.757695380996505" />
+      <entry key="M15" value="32.17576905982007" />
+      <entry key="M30" value="54.69172820543881" />
+      <entry key="H1" value="94.31141239048787" />
+      <entry key="H2" value="167.06894085180036" />
+      <entry key="H4" value="273.7218471500925" />
+      <entry key="D1" value="567.3561904485647" />
+      <entry key="W1" value="742.89608754347" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.17472817060103568" />
-      <entry key="MS500" value="1.619524854756428" />
-      <entry key="S2" value="5.439778993437063" />
-      <entry key="S5" value="9.506168862678363" />
-      <entry key="S10" value="15.083166238694403" />
-      <entry key="S30" value="25.29953521696806" />
-      <entry key="S60" value="30.393229357372974" />
-      <entry key="M2" value="33.78414422306731" />
-      <entry key="M5" value="36.197700039096574" />
-      <entry key="M10" value="37.07787073424656" />
-      <entry key="M15" value="37.38045633400115" />
-      <entry key="M30" value="37.738240443254405" />
-      <entry key="H1" value="45.82238288206742" />
-      <entry key="H2" value="163.56810421470803" />
-      <entry key="H4" value="615.4814574468159" />
-      <entry key="D1" value="2393.547638771739" />
-      <entry key="W1" value="3082.4710343890188" />
+      <entry key="MS100" value="0.07279584915427847" />
+      <entry key="MS500" value="0.5921358187845391" />
+      <entry key="S2" value="0.9025527729586115" />
+      <entry key="S5" value="1.691158987746701" />
+      <entry key="S10" value="3.9022390555621675" />
+      <entry key="S30" value="11.01502786376041" />
+      <entry key="S60" value="19.3303295744235" />
+      <entry key="M2" value="35.66260079264873" />
+      <entry key="M5" value="88.04365712022916" />
+      <entry key="M10" value="160.13893252373958" />
+      <entry key="M15" value="213.41414568940314" />
+      <entry key="M30" value="336.3569482837285" />
+      <entry key="H1" value="589.49753227735" />
+      <entry key="H2" value="1181.0761252542045" />
+      <entry key="H4" value="2227.316780777211" />
+      <entry key="D1" value="5974.00569482138" />
+      <entry key="W1" value="8638.976738493175" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -211,6 +337,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SearchEverywhere.PersistedScope.SymbolSearchEverywhereContributor": "모든 위치",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
@@ -225,7 +352,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/gmlvkf282/Desktop/Java-Subject/Java/mai/src/Main.java",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -237,26 +364,70 @@
     "애플리케이션.ArrayEx5.executor": "Run",
     "애플리케이션.ArrayEx6.executor": "Run",
     "애플리케이션.ArrayEx7.executor": "Run",
+    "애플리케이션.BookStore.executor": "Run",
     "애플리케이션.BooleanEx.executor": "Run",
+    "애플리케이션.CallAnotherConst.executor": "Run",
+    "애플리케이션.CarFactoryTest.executor": "Run",
     "애플리케이션.CharacterEx1.executor": "Run",
     "애플리케이션.CharacterEx3.executor": "Run",
+    "애플리케이션.CompanyTest.executor": "Run",
     "애플리케이션.DoubleEx1.executor": "Run",
+    "애플리케이션.Ex14.executor": "Run",
+    "애플리케이션.Ex15.executor": "Run",
+    "애플리케이션.Ex16.executor": "Run",
+    "애플리케이션.Ex17.executor": "Run",
+    "애플리케이션.Ex18.executor": "Run",
+    "애플리케이션.Ex19.executor": "Run",
+    "애플리케이션.Ex20.executor": "Run",
     "애플리케이션.ExplicitConversion1.executor": "Run",
     "애플리케이션.ExplicitConversion2.executor": "Run",
+    "애플리케이션.FunctionTest.executor": "Run",
     "애플리케이션.HelloWorld.executor": "Run",
     "애플리케이션.ImplicitConversion1.executor": "Run",
     "애플리케이션.ImplicitConversion2.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
     "애플리케이션.OperationEx1.executor": "Run",
     "애플리케이션.OperationEx2.executor": "Run",
     "애플리케이션.OperationEx3.executor": "Run",
     "애플리케이션.OperationEx4.executor": "Run",
+    "애플리케이션.OrderTest.executor": "Run",
+    "애플리케이션.PersonTest.executor": "Run",
+    "애플리케이션.PhoneStoreTest.executor": "Run",
     "애플리케이션.ScopeAssignment.executor": "Run",
+    "애플리케이션.Self_For3.executor": "Run",
+    "애플리케이션.Student.executor": "Run",
+    "애플리케이션.StudentTest.executor": "Run",
+    "애플리케이션.StudentTest2.executor": "Run",
+    "애플리케이션.TakeTrans.executor": "Run",
+    "애플리케이션.TakeTransit.executor": "Run",
+    "애플리케이션.ThisExam.executor": "Run",
     "애플리케이션.VarAssignment1.executor": "Run",
     "애플리케이션.VarAssignment2.executor": "Run",
     "애플리케이션.VarAssignment3.executor": "Run",
     "애플리케이션.Variable1.executor": "Run",
     "애플리케이션.Variable2.executor": "Run",
-    "애플리케이션.hello.HelloWorld.executor": "Run"
+    "애플리케이션.hello.HelloWorld.executor": "Run",
+    "애플리케이션.problem01.executor": "Run",
+    "애플리케이션.problem02.executor": "Run",
+    "애플리케이션.problem03.executor": "Run",
+    "애플리케이션.problem04.executor": "Run",
+    "애플리케이션.problem05.executor": "Run",
+    "애플리케이션.problem06.executor": "Run",
+    "애플리케이션.problem07.executor": "Run",
+    "애플리케이션.problem08.executor": "Run",
+    "애플리케이션.problem09.executor": "Run",
+    "애플리케이션.problem10.executor": "Run",
+    "애플리케이션.problem11.executor": "Run",
+    "애플리케이션.problem12.executor": "Run",
+    "애플리케이션.problem14.executor": "Run",
+    "애플리케이션.problem15.executor": "Run",
+    "애플리케이션.problem16.executor": "Run",
+    "애플리케이션.problem17.executor": "Run",
+    "애플리케이션.problem18.executor": "Run",
+    "애플리케이션.problem19.executor": "Run",
+    "애플리케이션.problem20.executor": "Run",
+    "애플리케이션.problem21.executor": "Run",
+    "애플리케이션.returnItSelf.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -275,20 +446,20 @@
       <recent name="$PROJECT_DIR$/java/src/chapter2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="array.assignments" />
-      <recent name="array" />
-      <recent name="loop" />
-      <recent name="loop.assignments" />
-      <recent name="conditional" />
+      <recent name="test17.assignments03" />
+      <recent name="test17.assignments02" />
+      <recent name="test17.assignments01" />
+      <recent name="singleton" />
+      <recent name="staticDemo" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayEx6">
-    <configuration name="ArrayEx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.assignments.ArrayEx2" />
+  <component name="RunManager" selected="애플리케이션.CarFactoryTest">
+    <configuration name="BookStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test17.assignments02.BookStore" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.assignments.*" />
+          <option name="PATTERN" value="test17.assignments02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,12 +467,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.assignments.ArrayEx3" />
+    <configuration name="CarFactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test17.assignments03.CarFactoryTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.assignments.*" />
+          <option name="PATTERN" value="test17.assignments03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +480,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.assignments.ArrayEx4" />
+    <configuration name="CompanyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.CompanyTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.assignments.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,12 +493,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.assignments.ArrayEx5" />
+    <configuration name="OrderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test17.assignments01.OrderTest" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.assignments.*" />
+          <option name="PATTERN" value="test17.assignments01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,12 +506,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayEx6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.assignments.ArrayEx6" />
+    <configuration name="StudentTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticDemo.StudentTest2" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.assignments.*" />
+          <option name="PATTERN" value="staticDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -350,11 +521,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ArrayEx6" />
-        <item itemvalue="애플리케이션.ArrayEx5" />
-        <item itemvalue="애플리케이션.ArrayEx4" />
-        <item itemvalue="애플리케이션.ArrayEx3" />
-        <item itemvalue="애플리케이션.ArrayEx2" />
+        <item itemvalue="애플리케이션.CarFactoryTest" />
+        <item itemvalue="애플리케이션.BookStore" />
+        <item itemvalue="애플리케이션.OrderTest" />
+        <item itemvalue="애플리케이션.CompanyTest" />
+        <item itemvalue="애플리케이션.StudentTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -378,6 +549,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="7차시: (refactor)" />
+    <option name="LAST_COMMIT_MESSAGE" value="7차시: (refactor)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
