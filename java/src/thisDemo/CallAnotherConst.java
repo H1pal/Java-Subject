@@ -6,5 +6,9 @@ public class CallAnotherConst {
 
         System.out.println(personLee.name);
         System.out.println(personLee.age);
+
+        System.out.println(personLee.returnIsSelf());
+        System.out.println(personLee);
+
     }
 }
