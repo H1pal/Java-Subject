@@ -1,7 +1,5 @@
 package test17.assignments01;
 
-import java.util.function.ObjDoubleConsumer;
-
 public class OrderTest {
     public static void main(String[] args) {
         Order o1 = new Order();
